@@ -44,8 +44,10 @@ build/Release
 
 # Dependency directories
 backend/node_modules/
+frontend/node_modules/
 node_modules/
 jspm_packages/
+.gitignore
 
 # Snowpack dependency directory (https://snowpack.dev/)
 web_modules/
@@ -133,6 +135,9 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
+##Qodo
+.qodo/
+
 ### Node Patch ###
 # Serverless Webpack directories
 .webpack/
@@ -156,3 +161,4 @@ thumb
 sketch
 
 # End of https://www.toptal.com/developers/gitignore/api/node,react
+.gitignore
